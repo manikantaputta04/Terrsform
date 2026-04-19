@@ -1,25 +1,25 @@
 variable "awsId" {
     description ="inserting AMI ID"
     type=string
-    default="ami-0e12ffc2dd465f6e4"
+    default=""
 }
 
 variable "instType" {
 
 description="inserting Instance Type"
 type=string
-default="t3.micro"
+default=""
 
 }
 
 variable "subNetID" {
     description ="inserting subnet ID"
     type=string
-    default="subnet-0849acc727c45112d"
+    default=""
 }
 
 variable "tagName" {
     description="variable name"
     type=string
-    default="manikanta Terraform"
+    default=""
 }
